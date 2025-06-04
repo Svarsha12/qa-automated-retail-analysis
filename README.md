@@ -68,7 +68,8 @@ pytest --html=reports/validation_report.html
 - Integrate with a data catalog or metadata store
 
 # Helpful tip for create and activate a virtual environment
-```python -m venv venv
+```
+python -m venv venv
 
 ```
 ```
