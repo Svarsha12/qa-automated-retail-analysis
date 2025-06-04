@@ -1,2 +1,16 @@
 # .gitignore
+# .gitignore
+
+# Ignore virtual environments
 venv/
+
+# Bytecode
+__pycache__/
+
+# Environment variables
+.env
+
+# IDE files
+.vscode/
+.idea/
+
