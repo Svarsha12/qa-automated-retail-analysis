@@ -1,0 +1,2 @@
+Issue ID,Column,Description,Severity,Status,Raised By
+003,Sales,"Sales values exceed $10,000 (possible outliers)",Medium,Open,QA Automation

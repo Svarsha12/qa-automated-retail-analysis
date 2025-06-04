@@ -1,0 +1,24 @@
+Column Name,Data Type,Description,Example Value
+Row ID,int64,,3
+Order ID,object,,CA-2016-138688
+Order Date,object,,2016-12-06
+Ship Date,object,,2016-12-06
+Ship Mode,object,,Second Class
+Customer ID,object,,DV-13045
+Customer Name,object,,Darrin Van Huff
+Segment,object,,Corporate
+Country,object,,United States
+City,object,,Los Angeles
+State,object,,California
+Postal Code,int64,,90036
+Region,object,,West
+Retail Sales People,object,,Anna Andreadi
+Product ID,object,,OFF-LA-10000240
+Category,object,,Office Supplies
+Sub-Category,object,,Labels
+Product Name,object,,Self-Adhesive Address Labels for Typewriters by Universal
+Returned,object,,Not
+Sales,float64,,14.62
+Quantity,int64,,2
+Discount,float64,,0.0
+Profit,float64,,6.87

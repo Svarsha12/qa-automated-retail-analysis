@@ -1,0 +1,4 @@
+Rule,Status,Issues
+Duplicate Order IDs,Fail,4985
+Nulls in Critical Fields,Pass,0
+Ship Date After Order Date,Pass,0
