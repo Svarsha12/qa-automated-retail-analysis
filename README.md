@@ -20,7 +20,7 @@ I implemented automated validation rules:
 1. reports/validation_report.html
 2. governance/steward_issues.csv
 
-# Governance Artifacts
+# Data Governance Artifacts
 
 - data_dictionary.csv: Column-level metadat
 - steward_issues.csv : Logged QA issues with severity/issues
