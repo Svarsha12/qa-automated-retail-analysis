@@ -3,7 +3,7 @@
 # Overview
 
 This project demonstrates a complete data pipeline that blends QA automation, data governance, analytics, and interactive dashboards using a realistic retail sales dataset.
-It showcases how you can ensure data quality, perforrm validation using pytest, document metadat, and visualize business and QA metrics using Tableau
+It showcases how you can ensure data quality, perform validation using pytest, document metadata, and visualize business and QA metrics using Tableau
 
 # Data Source
 https://www.kaggle.com/datasets/shandeep777/retail-supply-chain-sales-dataset
@@ -14,7 +14,7 @@ I implemented automated validation rules:
 
 - Order ID Uniqueness
 - Null Checks on Critical Columns
-- Ship Data must be on/after Order Date
+- Ship Date must be on/after Order Date
 
 - Results are exported to:
 1. reports/validation_report.html
@@ -22,17 +22,17 @@ I implemented automated validation rules:
 
 # Data Governance Artifacts
 
-- data_dictionary.csv: Column-level metadat
+- data_dictionary.csv: Column-level metadata
 - steward_issues.csv : Logged QA issues with severity/issues
 - lineage.md: Shows end-to-end data flow and governance checks
 
 # Tableau Dashboards
-Build us clean_orders.csv and qa_summary.csv, dashboards include:
+Build a clean_orders.csv and qa_summary.csv, dashboards include:
 - Sales by Region, Segment, Category
 - QA Pass/Fail Overview (Pie + Table)
 - Return Trends and Shipping Delays
 
-# View Dashboard on Tableau Pulic: 
+# View Dashboard on Tableau Public: 
 https://public.tableau.com/app/profile/varsha.sharma1882/viz/RetailDataQualityDashboard/RetailSalesDataQuality
 
 
@@ -59,7 +59,7 @@ pytest --html=reports/validation_report.html
 - Combine QA + Analytics + Visualization
 - Simulate real-world governance practices
 - Public Tableau dashboard for showcasing
-- Designed to help transition into data governance/data analyst roles
+
 
 # Future Enhancements
 
@@ -72,7 +72,8 @@ pytest --html=reports/validation_report.html
 python -m venv venv
 
 ```
+Mac/Linux:
 ```
-source venv/bin/activate
+source .venv/bin/activate
 ```
 
